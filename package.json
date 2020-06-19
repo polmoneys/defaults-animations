@@ -5,13 +5,13 @@
   "description": "React defaults-animations ",
   "author": "Pol Moneys",
   "repository": "github:Pol Moneys/defaults-animations",
-  "main": "././lib/index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "format": "prettier --write \"**/*.+(js|json|css|md|mdx|html)\"",
     "storybook": "start-storybook -p 6006",
     "build": "build-storybook"
   },
-  "dependencies": {
+  "peerDependencies": {
     "react": "^16.13.0",
     "react-dom": "^16.13.0"
   },
