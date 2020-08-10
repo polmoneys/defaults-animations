@@ -19,11 +19,11 @@ Polyfill as necessary, you might do/may wanna do it anyways.
 ```javascript
 
     // define your refs, array them for convenience (example below)
-    let shapeA = useRef();
-    let shapeB = useRef();
-    let shapeC = useRef();
-    let shapeD = useRef();
-    let allShapes = useRef([]);
+    const shapeA = useRef();
+    const shapeB = useRef();
+    const shapeC = useRef();
+    const shapeD = useRef();
+    const allShapes = useRef([]);
 
     .timeline() // chain with .then all states to timeline
     .then(() => animate(shapeA, {
